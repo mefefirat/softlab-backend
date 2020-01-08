@@ -1,3 +1,11 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+categories:
+    path: /api/categories
+    controller: App\Controller\ApiController::get_categories
+
+list:
+    path: /api/list
+    controller: App\Controller\ApiController::get_list
